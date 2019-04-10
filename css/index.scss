@@ -1,0 +1,175 @@
+body {
+    background-color: #f7f7f7;
+}
+
+header {
+    .content {
+        height: 0.45rem;
+        font-size: 0.16rem;
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        line-height: 0.45rem;
+        padding: 0 0.1rem;
+        .site {
+            font-size: 0.12rem;
+            color: #d482d2;
+            i {
+                font-size: 0.14rem;
+                vertical-align: text-top;
+            }
+        }
+        .user {
+            padding-top: 0.10rem;
+            img {
+                width: 0.22rem;
+                height: 0.22rem;
+            }
+        }
+    }
+}
+
+.slider {
+    height: 1.94rem;
+    .mui_mystyle {
+        div {
+            width: 0.1rem;
+            height: 0.1rem;
+            margin: 0;
+        }
+    }
+}
+
+nav {
+    .nav_title {
+        margin-top: 0.08rem;
+        display: flex;
+        flex-wrap: wrap;
+        a {
+            padding: 0 0.04rem;
+            width: 33%;
+            margin-bottom: 0.08rem;
+        }
+    }
+    .nav_center {
+        display: flex;
+        flex-wrap: wrap;
+        a:nth-of-type(-n+4) {
+            border-top: 0.02rem solid #e6e6e6;
+        }
+        a {
+            width: 25%;
+            border-bottom: 0.02rem solid #e6e6e6;
+            border-right: 0.02rem solid #e6e6e6;
+        }
+        a:nth-of-type(4),
+        a:nth-of-type(8) {
+            border-right: none;
+        }
+    }
+    .nav_bottom {
+        padding-top: 0.15rem;
+        background-color: #f1f1f1;
+        display: flex;
+        .bot_lef {
+            border-right: 2px solid #dddddd;
+        }
+        .bot_right {
+            a:first-of-type {
+                display: block;
+                border-bottom: 2px solid #dddddd;
+            }
+        }
+    }
+}
+
+main {
+    .active {
+        h3 {
+            height: 0.52rem;
+            background-image: linear-gradient(top, #f7f7f7 25%, #f1f1f1);
+            font-size: 0.14rem;
+            color: #555555;
+            padding: 0.26rem 0 0 0.15rem;
+            margin: 0;
+            border-top: 1px solid #dddddd;
+        }
+        a {
+            display: block;
+            border-bottom: 1px solid #dddddd;
+            img {
+                height: 1.2rem;
+            }
+        }
+    }
+    .active_list {
+        .list_title {
+            height: 0.44rem;
+            display: flex;
+            justify-content: space-around;
+            font-size: 0.12rem;
+            align-items: center;
+            span {
+                height: 100%;
+                width: 0.64rem;
+                text-align: center;
+                line-height: 0.44rem;
+                display: inline-block;
+                border-bottom: 3px solid #d3079e;
+            }
+            span:first-of-type {
+                color: #d3079e;
+            }
+        }
+        .list_content {
+            border-bottom: 1px solid #dddddd;
+            p:first-of-type {
+                font-size: 0.12rem;
+                color: #000;
+                margin-top: 0.07rem;
+            }
+            p:last-of-type {
+                font-size: 0.14rem;
+                color: #555555;
+                line-height: 0.34rem;
+            }
+        }
+        .list_num {
+            height: 0.46rem;
+            line-height: 0.46rem;
+            font-size: 0.14rem;
+            text-align: center;
+            background-image: linear-gradient(top, #f7f7f7 25%, #ffffff 100%);
+            border-bottom: 1px solid #dddddd;
+            a {
+                display: block;
+                i {
+                    color: #bdbdbd;
+                    font-size: 0.16rem;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 0.15rem 0 0.03rem 0;
+    .footer_tent {
+        padding: 0 0.1rem;
+        height: 0.3rem;
+        line-height: 0.3rem;
+        background-color: #d3079e;
+        display: flex;
+        justify-content: space-between;
+        p {
+            display: flex;
+            a:first-of-type {
+                margin-right: 0.2rem;
+            }
+        }
+        a {
+            font-size: 0.14rem;
+            color: #fff;
+        }
+    }
+}

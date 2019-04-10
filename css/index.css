@@ -1,0 +1,215 @@
+body {
+  background-color: #f7f7f7;
+}
+
+header .content {
+  height: 0.45rem;
+  font-size: 0.16rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-items: center;
+  line-height: 0.45rem;
+  padding: 0 0.1rem;
+}
+
+header .content .site {
+  font-size: 0.12rem;
+  color: #d482d2;
+}
+
+header .content .site i {
+  font-size: 0.14rem;
+  vertical-align: text-top;
+}
+
+header .content .user {
+  padding-top: 0.10rem;
+}
+
+header .content .user img {
+  width: 0.22rem;
+  height: 0.22rem;
+}
+
+.slider {
+  height: 1.94rem;
+}
+
+.slider .mui_mystyle div {
+  width: 0.1rem;
+  height: 0.1rem;
+  margin: 0;
+}
+
+nav .nav_title {
+  margin-top: 0.08rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+nav .nav_title a {
+  padding: 0 0.04rem;
+  width: 33%;
+  margin-bottom: 0.08rem;
+}
+
+nav .nav_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+nav .nav_center a:nth-of-type(-n+4) {
+  border-top: 0.02rem solid #e6e6e6;
+}
+
+nav .nav_center a {
+  width: 25%;
+  border-bottom: 0.02rem solid #e6e6e6;
+  border-right: 0.02rem solid #e6e6e6;
+}
+
+nav .nav_center a:nth-of-type(4),
+nav .nav_center a:nth-of-type(8) {
+  border-right: none;
+}
+
+nav .nav_bottom {
+  padding-top: 0.15rem;
+  background-color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .nav_bottom .bot_lef {
+  border-right: 2px solid #dddddd;
+}
+
+nav .nav_bottom .bot_right a:first-of-type {
+  display: block;
+  border-bottom: 2px solid #dddddd;
+}
+
+main .active h3 {
+  height: 0.52rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #f7f7f7), to(#f1f1f1));
+  background-image: linear-gradient(top, #f7f7f7 25%, #f1f1f1);
+  font-size: 0.14rem;
+  color: #555555;
+  padding: 0.26rem 0 0 0.15rem;
+  margin: 0;
+  border-top: 1px solid #dddddd;
+}
+
+main .active a {
+  display: block;
+  border-bottom: 1px solid #dddddd;
+}
+
+main .active a img {
+  height: 1.2rem;
+}
+
+main .active_list .list_title {
+  height: 0.44rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 0.12rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .active_list .list_title span {
+  height: 100%;
+  width: 0.64rem;
+  text-align: center;
+  line-height: 0.44rem;
+  display: inline-block;
+  border-bottom: 3px solid #d3079e;
+}
+
+main .active_list .list_title span:first-of-type {
+  color: #d3079e;
+}
+
+main .active_list .list_content {
+  border-bottom: 1px solid #dddddd;
+}
+
+main .active_list .list_content p:first-of-type {
+  font-size: 0.12rem;
+  color: #000;
+  margin-top: 0.07rem;
+}
+
+main .active_list .list_content p:last-of-type {
+  font-size: 0.14rem;
+  color: #555555;
+  line-height: 0.34rem;
+}
+
+main .active_list .list_num {
+  height: 0.46rem;
+  line-height: 0.46rem;
+  font-size: 0.14rem;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #f7f7f7), to(#ffffff));
+  background-image: linear-gradient(top, #f7f7f7 25%, #ffffff 100%);
+  border-bottom: 1px solid #dddddd;
+}
+
+main .active_list .list_num a {
+  display: block;
+}
+
+main .active_list .list_num a i {
+  color: #bdbdbd;
+  font-size: 0.16rem;
+}
+
+footer {
+  margin-top: 0.15rem 0 0.03rem 0;
+}
+
+footer .footer_tent {
+  padding: 0 0.1rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  background-color: #d3079e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer_tent p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer_tent p a:first-of-type {
+  margin-right: 0.2rem;
+}
+
+footer .footer_tent a {
+  font-size: 0.14rem;
+  color: #fff;
+}
+/*# sourceMappingURL=index.css.map */
